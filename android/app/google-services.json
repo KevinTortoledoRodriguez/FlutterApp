@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "79572263697",
+    "firebase_url": "https://curso-9c597.firebaseio.com",
+    "project_id": "curso-9c597",
+    "storage_bucket": "curso-9c597.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79572263697:android:79cf358a8373e79489e2b0",
+        "android_client_info": {
+          "package_name": "com.example.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79572263697-hr5q61as9qdl86j648d99nad9drb3c92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQyIb6JvAYhsdNPKB29RRCIB2jC70rm8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79572263697-hr5q61as9qdl86j648d99nad9drb3c92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

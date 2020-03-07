@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/add/add_usuarios.dart';
 import 'package:flutterapp/main.dart';
-import 'package:flutterapp/profile/view_profile.dart';
 
 class MenuLateral extends StatefulWidget {
   @override
@@ -47,23 +46,6 @@ class Menu extends  State<MenuLateral> {
               title: Text('Registrar'),
               onTap: () => Navigator.of(context).push(new PageRouteBuilder(
                 pageBuilder: (_,__,___) => new AddUsuarios(), ))
-          ),
-          ListTile(
-              leading: new Icon(
-                  Icons.person_add,
-                  color: Colors.black
-              ),
-              title: Text('Perfil'),
-              onTap: () => Navigator.of(context).push(new PageRouteBuilder(
-                pageBuilder: (_,__,___) => new Profile(), ))
-          ),
-          ListTile(
-              leading: new Icon(
-                  Icons.exit_to_app,
-                  color: Colors.black
-              ),
-              title: Text('Cerrar sesion'),
-              onTap: () => Navigator.pop(context)
           ),
         ],
       ),

@@ -65,7 +65,6 @@ class UsuarioFormState extends State<UsuarioForm> {
                 border: new OutlineInputBorder(
                   borderRadius: new BorderRadius.circular(25.0),
                   borderSide: new BorderSide(
-
                   ),
                 ),
               ),

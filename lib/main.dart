@@ -10,7 +10,7 @@ class Usuarios extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Usuarios',
       theme: ThemeData(
-        primarySwatch: Colors.purple
+        primarySwatch: Colors.red
       ),
       home: HomePage(title: 'Usuarios'),
     );
